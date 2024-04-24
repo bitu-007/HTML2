@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>A Sample Form For Validation</h1>
+    <form action="main.py">
+        <p>All * fields are required</p>
+       <div>
+        <label for="uname">Name*</label>
+        <input type="text"
+        name="uname"
+        id="uname" required>
+       </div><br>
+       <div>
+        <label for="email">Email</label>
+        <input type="email"
+        name="email"
+        id="email"
+        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+       </div><br>
+       <div>
+        <label for="password">Password</label>
+        <input type="password"
+        name="password"
+        minlength="6"
+        maxlength="20"
+        id="password"
+        pattern="*[A-Z]*[a-z]*d$">
+       </div><br>
+       <div>
+        <label for="age">Age</label>
+        <input type="number"
+        name="age"
+        id="age" 
+        min="18"
+        max="35" disabled>   <!--disabled use when disabled table-->
+        <input type="hidden"  
+        name="batch"
+        value="25"> <!--  Hidden File-->
+       </div><br>
+       <button type="submit">Submit</button><br><br>
+    </form>
+
+
+<!--------------------------------------------------------------------------------------------------------------->
+
+       <fieldset> 
+        <legend>My Form</legend>
+        <div>
+        <label for="uname">Name*</label>
+        <input type="text"
+        name="uname"
+        id="uname" required>
+       </div><br>
+       <div>
+        <label for="email">Email</label>
+        <input type="email"
+        name="email"
+        id="email"
+        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+       </div><br>
+       <div>
+        <label for="password">Password</label>
+        <input type="password"
+        name="password"
+        minlength="6"
+        maxlength="20"
+        id="password"
+        pattern="*[A-Z]*[a-z]*d$">
+       </div><br>
+       <div>
+        <label for="age">Age</label>
+        <input type="number"
+        name="age"
+        id="age" 
+        min="18"
+        max="35" disabled>   <!--disabled use when disabled table-->
+        <input type="hidden"  
+        name="batch"
+        value="25"> <!--  Hidden File-->
+       </div><br>
+    </fieldset>
+    <br>
+       <button type="submit">Submit</button><br><br>
+    </form>
+
+</body>
+</html>
