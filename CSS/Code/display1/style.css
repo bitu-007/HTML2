@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+
+}
+a{
+    /* background-color:aqua; */
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin:10px;
+    /* display: inline-block;
+    display: table; */
+    /* visibility: hidden; */
+    display:none;
+}
+.side{
+    display:inline-block
+}
+li{
+    display:inline;
+    list-style-type: none;
+}
+img{
+    /* filter:blur(20px) */
+    /* filter:grayscale() */
+    /* filter:hue-rotate(36deg) */
+    /* filter:opacity(0.5) */
+    /* filter:invert() */
+} 
+img:hover{
+    /* filter:none; */
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.5); */
+    transform: translate(100px);
+} 

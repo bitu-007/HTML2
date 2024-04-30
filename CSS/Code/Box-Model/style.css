@@ -1,0 +1,14 @@
+h2
+{
+background-color: aquamarine;
+color: blue;
+/* border-width: 5px;
+border-style: solid;
+border-color: black; */
+border: 5px solid black;
+/* border-radius: 10px; */
+/* border-top-left-radius: 10px;
+border-radius: 50%; */
+padding: 20px 50px 100px 150px;
+margin-left: 50px;
+}

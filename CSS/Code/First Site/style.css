@@ -1,0 +1,24 @@
+body
+{
+   /* background:linear-gradient(to left, red,blue);
+    height: 100vh; */
+
+    /*background:radial-gradient( red,blue,red,blue,red,blue);
+    height: 100vh;*/
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+button
+{
+    background-color: red;color: white;
+}
+.btn
+{
+background-color: yellowgreen;color: black;
+}
+#second
+{
+    background-color: green;color: black;
+}

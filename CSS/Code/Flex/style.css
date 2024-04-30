@@ -1,0 +1,31 @@
+.main{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:
+    /* space-around; */
+    space-evenly; 
+    justify-items: center;
+    align-items: center;
+    align-content:center;
+    border:1px solid black;
+}
+.box{
+    height:50px;
+    width:50px;
+    border:1px solid white;
+    background-color: red;
+    color: white;
+}
+.one{
+    /* flex-basis: 100px; */
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+    order:2;
+}
+.third{
+    order: -1;
+}
